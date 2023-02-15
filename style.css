@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-component {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.right {
+    width: 400px;
+    height: 600px;
+    background-color: coral;
+    border-radius: 25px 0px 0px 25px;
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-component .left .text-perfume {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: "montserrat";
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.main-component .left .main-tittle {
+    font-family: "Fraunces";
+}
+
+.main-component .left .left-text .main-p {
+    font-family: "montserrat";
+    width: 80%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+
+.left {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 0px 25px 25px 0px;
+    
+}
+
+.main-component .left .left-text {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.main-component .left .left-text h1{
+    margin-bottom: 40px;
+}
+
+
+.prices {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.price {
+    font-family: "Fraunces";
+    font-size: 45px;
+    font-weight: 1000;
+    color: rgb(34, 129, 70);
+}
+
+.price-cut{
+
+    text-decoration: line-through;
+    color: gray;
+}
+
+.btn{ 
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(34, 129, 70);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    opacity: 0.8;
+    animation: 1s ease-in;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.cart-icon {
+    margin-right: 20px;
+    width: 20px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
